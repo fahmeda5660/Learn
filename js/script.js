@@ -35,6 +35,10 @@ function mod(){
 document.getElementById("output").innerHTML=z;
 }
 // **************************JQUERY-PART START************************** 
+// *****************************wow-part*****************************
+$(document).ready(function(){
+  new WOW().init();
+});
 // *****************************mixitup-part*****************************
 
  

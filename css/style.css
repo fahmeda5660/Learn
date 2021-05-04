@@ -26,7 +26,12 @@ a {
 .space1 {
     margin-top: 100px;
 }
-
+.space-b{
+    margin: 30px;
+}
+.space-tb{
+    margin: 30px 0;
+}
 .common-title h1 {
     color: green;
     margin-bottom: 20px;
@@ -575,6 +580,140 @@ a {
 }
 
 /* **************************FLAG-PART END************************** */
+/* **************************APPOINTMENT-PART START************************** */
+
+#appointment-part .background_img {
+    background-image: linear-gradient(rgba(14, 236, 218, 0.5),rgba(14, 236, 218, 0.5)), url(img/image.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    margin: 100px 40px;
+    padding: 78px;
+    padding-left: 245px;
+    padding-right: 50px;
+    position: relative;
+}
+#appointment-part .appoint_txt{
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 78px;
+    top: 198px;
+    color: white;
+}
+#appointment-part .pad{
+    padding-left: 20px;
+}
+#appointment-part textarea.form-control.mt-1 {
+    padding: 10px 10px;
+    margin-left: 8px;
+}
+#appointment-part .button_pad {
+    margin-left: 9px;
+    padding-top: 10px;
+}
+#appointment-part button.btn {
+    background: white;
+    color: rgb(48, 226, 211);
+    font-weight: 500;
+}
+#appointment-part .section_right {
+    margin: 175px 50px;
+}
+#appointment-part h2 {
+    font-size: 22px !important;
+    line-height: 28px !important;
+    padding-bottom: 22px;
+    padding-left: 20px;
+}
+#appointment-part ul {
+    margin-top: 0;
+    margin-bottom: 5px;
+    line-height: 32px;
+    font-size: 16px;
+}
+#appointment-part .section_right button.btn {
+    background: #58f7e9;
+    color:white;
+    padding-left:20px;
+}
+#appointment-part .section_right_btn {
+    padding-left: 20px;
+}
+/* **************************APPOINTMENT-PART END************************** */
+/* **************************POSITION PART START************************** */
+#position-part .relative{
+    background-image: url('../images/1.jpg');
+    height: 500px;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#position-part div.relative{
+    position: relative;
+    height: 500px;
+    width: 60%;
+    border: 3px solid red;
+    }
+#position-part div.up_left{
+        position: absolute;
+        background-color: green;
+        width: 110px;
+        height: 90px;
+        border: 3px solid rgb(235, 101, 12);
+        top: 0;
+        left: 0;
+}
+#position-part div.up_right{
+        position: absolute;
+        background-color: green;
+        width: 110px;
+        height: 90px;
+        border: 3px solid rgb(235, 101, 12);
+        top: 0;
+        right: 0;
+}
+#position-part div.up_middle{
+        position: absolute;
+        background-color: green;
+        width: 110px;
+        height: 90px;
+        border: 3px solid rgb(235, 101, 12);
+        left: 45%;
+}
+#position-part div.bottom_left{
+        position: absolute;
+        background-color: green;
+        width: 110px;
+        height: 90px;
+        border: 3px solid rgb(235, 101, 12);
+        bottom: 0;
+        left: 0;
+}
+#position-part div.bottom_right{
+        position: absolute;
+        background-color: green;
+        width: 110px;
+        height: 80px;
+        border: 3px solid rgb(235, 101, 12);
+        bottom: 0;
+        right: 0;
+}
+#position-part div.bottom_middle{
+        position: absolute;
+        background-color: green;
+        width: 110px;
+        height: 80px;
+        border: 3px solid rgb(235, 101, 12);
+        bottom: 0;
+        right: 0;
+        left: 45%;
+}
+#position-part .absolute{
+    text-align: center;
+}
+/* **************************POSITION PART END************************** */
 /* **************************CARROM-PART START************************** */
 #carrom-part {
     height: 500px;
@@ -1106,6 +1245,40 @@ a {
     margin-top: 50px;
 }
 
+/* *****************************LIGHTBOX***************************** */
+#lightbox-part .main{
+    display: flex;
+    justify-content: space-between;
+}
+#lightbox-part a img{
+    width: 33%;
+    width: 305px;
+    height: 300px;
+}
+.lb-data .lb-caption {
+    font-size: 26px;
+    line-height: 2em;
+	color: rgb(49, 122, 14);
+}
+
+.lb-data .lb-number {
+	font-size: 22px;
+    color: #cf294d;
+}
+/* *****************************LIGHTBOX***************************** */
+/* *****************************WOW JS***************************** */
+#wow-part .main{
+    background:#29cf5e;
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wow-part .box{
+    display: flex;
+    justify-content: space-between;
+}
+/* *****************************WOW JS***************************** */
 /* *****************************MIXITUP***************************** */
 #mixitup-part {
     height: 1200px;
